@@ -24,3 +24,5 @@ python main.py
    ```commandline
    python eval.py
    ```
+
+Examples of running evaluation you can check in examples folder.
