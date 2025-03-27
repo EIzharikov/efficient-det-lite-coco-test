@@ -26,3 +26,25 @@ python main.py
    ```
 
 Examples of running evaluation you can check in examples folder.
+
+The results of reproducing are:
+
+| Metric         | EfficientDet Lite result |
+|----------------|--------------------------|
+| mAP@[0.5:0.95] | 0.437                    |
+| mAP@0.5        | 0.587                    |
+| mAP-small      | 0.220                    |
+| mAP-medium     | 0.504                    |
+| mAP-large      | 0.584                    |
+
+The next provided results are done with:
+
+CPU:12th Gen Intel Core i5-1240P(12 cores: 4 perfomance, 8 efficiency, 4.4 GHz)
+
+RAM: 16 GB DDR-4-3200 MHz
+
+| Metric                   | EfficientDet Lite |
+|--------------------------|-------------------|
+| AVG Latency, ms          | 1694.59           |
+| Throughput, FPS          | 0.59              |
+| Total inference takes, s | 508.38            |
